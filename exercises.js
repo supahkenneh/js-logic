@@ -434,6 +434,15 @@ for (var i=0; i<players.length; i++){
 var numArray = [1, 2, 3, 4, 5];
 var total = 0;
 
+function sumItUp(arr){
+  for (i=0; i<arr.length; i++){
+    total += arr[i];
+  }
+}
+
+sumItUp(numArray);
+console.log(total);
+
 
 
 
